@@ -1,0 +1,179 @@
+/* Basic reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif; /* Use a clean font */
+  overflow-x: hidden;  /* Prevent horizontal scrolling */
+  overflow-y: auto;    /* Allow vertical scrolling */
+}
+
+/* Main container styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center horizontally */
+  justify-content: flex-start;
+  min-height: 100vh;    /* Full height */
+  background-color: #f9f9f9; /* Light background color for a clean look */
+  padding: 20px;
+}
+
+/* Profile container */
+.profile-container {
+  width: 100%;
+  max-width: 1200px; /* Max width for larger screens */
+  background-color: #ffffff; /* White background for sections */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+  border-radius: 8px;  /* Rounded corners */
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #0073e6;  /* Add a border around the profile image */
+}
+
+/* Profile information */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.university, .graduation {
+  font-size: 16px;
+  color: #555;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about .section-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Bio section */
+.bio {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* List and project styling */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.project ul {
+  margin-top: 10px;
+}
+
+.project h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-top: 40px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .bio {
+    font-size: 16px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
