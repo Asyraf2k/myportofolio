@@ -16,6 +16,7 @@ function App() {
                 <p>Email: <a href="mailto:Afebry444@gmail.com">Afebry444@gmail.com</a></p>
                 <p>Phone: <a href="tel:+6285156048105">📱 085156048105</a></p>
                 <p>GitHub: <a href="https://github.com/Asyraf2k" target="_blank" rel="noopener noreferrer">🌐 GitHub</a></p>
+                <p>Linkedin: <a href="https://github.com/Asyraf2k" target="_blank" rel="noopener noreferrer">🌐 Linkedin</a></p>
               </div>
             </div>
           </div>
